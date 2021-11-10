@@ -418,8 +418,13 @@ img{
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+
+  height: auto;
 }
 
+.work__data p {
+  font-size: 0.9rem;
+}
 
 
 .work__data h3 {
@@ -427,7 +432,7 @@ img{
 }
 
 .work__view {
-  flex-direction: flex-end;
+  justify-self: flex-end;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -438,6 +443,7 @@ img{
   border-radius: 7px;
   padding: 0.5em 1.5em;
   background: var(--first-color);
+  margin-top: auto;
 
 }
 
